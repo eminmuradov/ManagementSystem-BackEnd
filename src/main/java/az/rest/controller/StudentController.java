@@ -9,13 +9,12 @@ import az.rest.dto.base.GenericResponse;
 import az.rest.model.Student;
 import az.rest.service.StudentService;
 import lombok.RequiredArgsConstructor;
-import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.MediaType;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
-@Slf4j
+
 @RestController
 @CrossOrigin("*")
 @RequiredArgsConstructor
