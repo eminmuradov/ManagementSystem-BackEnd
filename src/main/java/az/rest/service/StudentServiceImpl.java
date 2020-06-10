@@ -4,7 +4,6 @@ import az.rest.dto.LoginDto;
 import az.rest.dto.RegisterDto;
 import az.rest.dto.RegisterResponseDto;
 import az.rest.dto.StudentDto;
-
 import az.rest.dto.base.GenericResponse;
 import az.rest.model.Registration;
 import az.rest.model.Student;
@@ -13,7 +12,6 @@ import az.rest.repository.StudentRepository;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-
 import java.util.List;
 import java.util.Optional;
 

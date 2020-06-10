@@ -1,15 +1,10 @@
 package az.rest.model;
 
-
 import az.rest.enums.Role;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.ToString;
-import org.hibernate.annotations.ColumnDefault;
-import org.springframework.boot.context.properties.bind.DefaultValue;
-
 import javax.persistence.*;
 
 
